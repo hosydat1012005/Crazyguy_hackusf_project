@@ -29,20 +29,35 @@ This project aims to develop an AI model that classifies skin cancer lesions as 
 ## 📁 Directory Structure
 
 skin-cancer-ai-classifier/
+
 ├── data/
+
 │   ├── raw/                  # Raw downloaded datasets (images, clinical CSVs)
+
 │   └── processed/            # Preprocessed data for model training
+
 ├── notebooks/
+
 │   └── EDA.ipynb             # Exploratory Data Analysis
+
 ├── src/
+
 │   ├── __init__.py
+
 │   ├── data_loader.py        # Code to load/clean data
+
 │   ├── model.py              # Model training and evaluation
+
 │   └── utils.py              # Helper functions
+
 ├── main.py                   # Main runner script
+
 ├── requirements.txt          # Python dependencies
+
 ├── .env                      # Environment variables (PostgreSQL info)
+
 ├── README.md                 # Project overview
+
 └── .gitignore
 
 
